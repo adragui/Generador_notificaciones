@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="form-container">
+        <header>GENERADOR DE NOTIFICACIONES</header>
+        <div class="form">
+            <label for="initial_date"> Fecha de Inicio:
+                <input type="date" id="initial_date" placeholder="1991/04/16"/>
+            </label>
+            <label for="initial_date"> Fecha de Fin:
+                <input type="date" id="end_date"/>
+            </label>
+            <button id="submit_btn">GENERAR</button>
+        </div>
+        <div class="line-break"></div>
+        <p id="notif-text">COMPROBANTE DE PAGO del Banco de la Nación (Código 675) por concepto de MULTA POR EXCESO DE PERMANENCIA correspondiente a un total de <span id="daysresult"></span> días</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
